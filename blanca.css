@@ -1,0 +1,69 @@
+/* blanca.css  : Archivo con los estilos pra usar con blanca.js : Abraham Román Ramos */
+
+
+/* Clases que controlan la velocidad de las transiciones*/
+
+.v800ms{
+    transition: all 800ms ease-in-out;
+}
+
+.v1s{
+    transition: all 1s ease-in-out;
+}
+
+.v1_5s{
+    transition: all 1.5s ease-in-out;
+}
+
+.v2s{
+    transition: all 2s ease-in-out;
+}
+
+.v3s{
+    transition: all 2s ease-in-out;
+}
+
+/* Clases que indican las reglas de transicion a realizar */
+
+.opacity{
+    opacity: 0;
+}
+
+.rTl{
+    transform: translateX(-50%);
+}
+
+
+.rTl--opacity{
+    opacity: 0;
+    transform: translateX(-50%);
+}
+
+.lTr{
+    transform: translateX(50%);
+}
+
+.lTr--opacity{
+    opacity: 0;
+    transform: translateX(50%);
+}
+
+
+.tTb{
+    transform: translateY(-50%);
+}
+
+.tTb--opacity{
+    opacity: 0;
+    transform: translateY(-50%);
+}
+
+.bTt{
+    transform: translateY(50%);
+}
+
+
+.bTt--opacity{
+    opacity: 0;
+    transform: translateY(50%);
+}
